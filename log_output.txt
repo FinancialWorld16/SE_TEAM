@@ -1,3 +1,27 @@
+[FinancialWorld16] Fri May 12 01:48:00 2023 +0900 제출전 최종 커밋 a53f1de
+[FinancialWorld16] Thu May 11 21:34:37 2023 +0900 05.11 21:34 커밋 5219843
+[퓨처] Thu May 11 17:36:14 2023 +0900 communication diagram 미팅 후 수정 4144700
+[FinancialWorld16] Thu May 11 17:22:15 2023 +0900 0511 웹 미팅 중 daccb07
+[Tvivid] Thu May 11 16:24:54 2023 +0900 classdiagram초본 b8259ba
+[stakbucks] Thu May 11 15:10:43 2023 +0900 태환_클래스다이어그램+유스케이스다이어그램 추가 5d2b373
+[stakbucks] Thu May 11 13:23:35 2023 +0900 황태환 cd 수정 e4aa468
+[퓨처] Thu May 11 13:07:53 2023 +0900 김미래 커뮤니케이션 다이어그램 추가 a68c74d
+[FinancialWorld16] Thu May 11 11:57:55 2023 +0900 미래님꺼 수정 반영 테스트 8349a36
+[퓨처] Thu May 11 11:38:48 2023 +0900 김미래 파일 수정 84dc8b4
+[FinancialWorld16] Thu May 11 10:52:13 2023 +0900 웹미팅 후 수정 9faea22
+[Tvivid] Thu May 11 03:26:41 2023 +0900 두번째 버전 8737f0a
+[Tvivid] Wed May 10 22:45:21 2023 +0900 Add files via upload 3175a75
+[Tvivid] Wed May 10 22:41:19 2023 +0900 Create readme.md fc7f034
+[Tvivid] Wed May 10 22:40:02 2023 +0900 Delete B811190_진선명.md b9af76d
+[Tvivid] Wed May 10 22:39:49 2023 +0900 Create B811190_진선명.md b25ef16
+[Tvivid] Wed May 10 22:30:48 2023 +0900 Delete B811190_진선명 ce7f661
+[Tvivid] Wed May 10 22:30:32 2023 +0900 Create B811190_진선명 48b48f7
+[stakbucks] Wed May 10 22:14:32 2023 +0900 황태환 파일 수정 d415a5c
+[stakbucks] Wed May 10 22:13:13 2023 +0900 황태환 커뮤니케이션 다이어그램 제출 b04e1c2
+[FinancialWorld16] Wed May 10 18:34:12 2023 +0900 Rename SEdiagram2.drawio to B811010_고한강/SEdiagram2.drawio 8a0367f
+[퓨처] Wed May 10 17:13:52 2023 +0900 Feat: 커뮤니케이션 다이어그램 초본 제출 41c4983
+[FinancialWorld16] Wed May 10 13:45:03 2023 +0900 Delete commit test3.txt 5a0c47a
+[KO_HANGANG] Wed May 10 13:44:09 2023 +0900 commit test 3 cdf0937
 [FinancialWorld16] Wed May 10 13:31:46 2023 +0900 Delete second test.txt 8672b0a
 [KO_HANGANG] Wed May 10 13:28:14 2023 +0900 Create SEdiagram2.drawio 0b54b6a
 [KO_HANGANG] Mon May 8 20:32:08 2023 +0900 second commit test 338748a
