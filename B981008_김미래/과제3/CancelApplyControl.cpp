@@ -1,32 +1,23 @@
 #include "CancelApplyControl.h"
 
 /*
-	ÇÔ¼ö ÀÌ¸§ : CancelApplyControl::cancelApply()
-	±â´É	  : Áö¿øÀ» Ãë¼ÒÇÏ±â Àü¿¡ Ãâ·ÂÇÒ Áö¿ø Á¤º¸¸¦ ¹è¿­¿¡ ÀúÀåÇÑ µÚ, Áö¿ø Ãë¼Ò ÇÔ¼ö¸¦ ºÎ¸¥´Ù. 
+	ï¿½Ô¼ï¿½ ï¿½Ì¸ï¿½ : CancelApplyControl::cancelApply()
+	ï¿½ï¿½ï¿½	  : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½Î¸ï¿½ï¿½ï¿½. 
 */
 void CancelApplyControl::cancelApply(GeneralMember* generalMember, string businessCode, Recruitments* recruitments, string* forPrint) {
 
-	Recruitment** recruitmentList = recruitments->getRecruitmetList(); //ÀüÃ¼ Ã¤¿ë ¸®½ºÆ® °¡Á®¿È
+	Recruitment** recruitmentList = recruitments->getRecruitmetList(); //ï¿½ï¿½Ã¼ Ã¤ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-	//Áö¿ø Ãë¼Ò Àü¿¡ Áö¿ø¸®½ºÆ®¿¡¼­ ¹Ì¸® Ãâ·ÂÇÒ Á¤º¸¸¦ ÀúÀåÇÏ´Â °úÁ¤ 
+	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 	int j = 0;
-	for (int i = 0; i < generalMember->getApplyCnt(); i++) { // ÇØ´ç È¸¿øÀÇ Áö¿øÈ½¼ö¸¸Å­ ¹Ýº¹
-		if (generalMember->listApplyInfo()[i]->getBusinessCode() == businessCode) { //Àü´Þ¹ÞÀº businessCode¿Í È¸¿øÀÇ Áö¿ø¸®½ºÆ®ÀÇ businessCode¸¦ ºñ±³ÇÏ¿© °°´Ù¸é,
-			forPrint[j] = generalMember->listApplyInfo()[i]->applyCancelReturn(); // ÇØ´ç Áö¿ø Á¤º¸¸¦ ¹è¿­¿¡ ÀúÀåÇÔ
+	for (int i = 0; i < generalMember->getApplyCnt(); i++) { // ï¿½Ø´ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È½ï¿½ï¿½ï¿½ï¿½Å­ ï¿½Ýºï¿½
+		if (generalMember->listApplyInfo()[i]->getBusinessCode() == businessCode) { //ï¿½ï¿½ï¿½Þ¹ï¿½ï¿½ï¿½ businessCodeï¿½ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ businessCodeï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½,
+			forPrint[j] = generalMember->listApplyInfo()[i]->applyCancelReturn(); // ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			j++;
 		}
 	}
 
-	generalMember->cancelApply(businessCode, recruitments); //Áö¿ø Ãë¼ÒÇÔ¼ö ºÎ¸§
-
-	//int j = 0;
-	//for (int i = 0; i < recruitments->getCnt(); i++) {
-	//	if (recruitmentList[i][0].getBusinessCode() == businessCode) {
-	//		for (int j = 0; recruitmentList[i][j].getCompanyName() != ""; j++) { //È¸»çÀÌ¸§ÀÌ ¾øÀ¸¸é Áß´ÜÇÒ°ÅÀÓ
-	//			forPrint[j] = recruitmentList[i][j].applyCancelReturn();
-	//		}
-	//	}
-	//}
+	generalMember->cancelApply(businessCode, recruitments); //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ ï¿½Î¸ï¿½
 
 
 }
