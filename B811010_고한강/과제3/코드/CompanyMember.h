@@ -13,7 +13,7 @@ private:
 
 	Recruitment recruitmentList[20]; //회사회원 개인의 채용정보 리스트 (*추가된 항목*)
 
-	int numberOfRecruitments=0;
+	int numberOfRecruitments=0; //회사회원이 갖고있는 채용정보 수
 
 	Recruitment* pRecruitment;
 

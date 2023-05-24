@@ -12,9 +12,7 @@ Member* GeneralMember::createNewAccount(string name, string code, string id, str
 
 	GeneralMember *generalMember = new GeneralMember(name, code, id, pw);
 
-
 	return generalMember;
-
 }
 
 

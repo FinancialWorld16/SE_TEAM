@@ -25,7 +25,7 @@ Member* CompanyMember::createNewAccount(string name, string code, string id, str
 void CompanyMember::addNewRecruitment(string workName, string personNum, string deadline){
 
 	pRecruitment=new Recruitment(this->getName(), this->businessCode, workName, personNum, deadline);
-	this->recruitmentList[numberOfRecruitments++]=*pRecruitment;
+	this->recruitmentList[numberOfRecruitments++]=*pRecruitment; //회사회원의 채용정보 리스트에 해당 채용정보 추가
 
 }
 
