@@ -1,0 +1,86 @@
+<mxfile host="Electron" modified="2023-05-24T05:47:00.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="TC1lqUbJ_Itqv0Ex21TP" version="21.2.8" type="device" pages="3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="로그아웃(2.2)">
+    <mxGraphModel dx="984" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="NdsftOjEtsE3ZW5xFAsl-4" value="LogOutUI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="100" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NdsftOjEtsE3ZW5xFAsl-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NdsftOjEtsE3ZW5xFAsl-4">
+          <mxGeometry y="26" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NdsftOjEtsE3ZW5xFAsl-7" value="&lt;u&gt;+ logOut(fin: ifstream*, fout: ofstream*, currentUser: Member*)&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NdsftOjEtsE3ZW5xFAsl-4">
+          <mxGeometry y="34" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NdsftOjEtsE3ZW5xFAsl-8" value="LogOutControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="230" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NdsftOjEtsE3ZW5xFAsl-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NdsftOjEtsE3ZW5xFAsl-8">
+          <mxGeometry y="26" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NdsftOjEtsE3ZW5xFAsl-11" value="+ logOut(currentUser: Member*)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NdsftOjEtsE3ZW5xFAsl-8">
+          <mxGeometry y="34" width="290" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cqmGc1dYmF_-9UlR8X3P" name="채용정보 등록(3.1)">
+    <mxGraphModel dx="984" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_J9ibaZ23A3EDjXXEd4t-1" value="AddNewRecruitmentUI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_J9ibaZ23A3EDjXXEd4t-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_J9ibaZ23A3EDjXXEd4t-1">
+          <mxGeometry y="26" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_J9ibaZ23A3EDjXXEd4t-3" value="&lt;u&gt;+ addNewRecruitment(fin: ifstream*, fout: ofstream*, currentUser: Member*)&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_J9ibaZ23A3EDjXXEd4t-1">
+          <mxGeometry y="34" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ08ztm_xo6v77AZ4XpX-1" value="AddNewRecruitmentControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="670" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ08ztm_xo6v77AZ4XpX-2" value="- pCompanyMember: CompanyMember*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nJ08ztm_xo6v77AZ4XpX-1">
+          <mxGeometry y="26" width="670" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ08ztm_xo6v77AZ4XpX-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nJ08ztm_xo6v77AZ4XpX-1">
+          <mxGeometry y="52" width="670" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ08ztm_xo6v77AZ4XpX-4" value="+ addNewRecruitment(companyMember: CompanyMember*, workName: string, personNum: string, deadline: string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nJ08ztm_xo6v77AZ4XpX-1">
+          <mxGeometry y="60" width="670" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PdxACEPTgABmfmZKHfoG" name="등록된 채용정보 조회(3.2)">
+    <mxGraphModel dx="984" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0TgDKhKhaEbGgqYlI-kq-1" value="ShowMyRecruitmentsUI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TgDKhKhaEbGgqYlI-kq-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="0TgDKhKhaEbGgqYlI-kq-1">
+          <mxGeometry y="26" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="0TgDKhKhaEbGgqYlI-kq-3" value="&lt;u&gt;+ showMyRecruitments(fin: ifstream*, fout: ofstream*, currentUser: Member*)&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0TgDKhKhaEbGgqYlI-kq-1">
+          <mxGeometry y="34" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0TgDKhKhaEbGgqYlI-kq-7" value="ShowMyRecruitmentsControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="470" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="0TgDKhKhaEbGgqYlI-kq-8" value="- pCompanyMember: CompanyMember*&lt;br&gt;- pRecruitment: Recruitment*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0TgDKhKhaEbGgqYlI-kq-7">
+          <mxGeometry y="26" width="470" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="0TgDKhKhaEbGgqYlI-kq-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="0TgDKhKhaEbGgqYlI-kq-7">
+          <mxGeometry y="70" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="0TgDKhKhaEbGgqYlI-kq-10" value="+ showRecruitments(companyMember: CompanyMember*, forPrint: string*)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0TgDKhKhaEbGgqYlI-kq-7">
+          <mxGeometry y="78" width="470" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
