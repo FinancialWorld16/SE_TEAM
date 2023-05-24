@@ -1,18 +1,18 @@
 #include "Recruitments.h"
 
-Recruitment** Recruitments::getRecruitmetList() {
+Recruitment** Recruitments::getRecruitmetList(){
 
 	return recruitmentList;
 
 }
 
-void Recruitments::addPersonalRecruitmentList(Recruitment* recruitmentList) {
+void Recruitments::addPersonalRecruitmentList(Recruitment* recruitmentList){
 
-	this->recruitmentList[cnt++] = recruitmentList;
+	this->recruitmentList[cnt++]=recruitmentList;
 
 }
 
-int Recruitments::getCnt() {
+int Recruitments::getCnt(){
 
 	return cnt;
 

@@ -4,7 +4,7 @@
 #include "Recruitments.h"
 #include "JoinControl.h"
 
-class JoinUI {
+class JoinUI{
 public:
 
 	static Member* join(ifstream* fin, ofstream* fout, Recruitments* recruitments);

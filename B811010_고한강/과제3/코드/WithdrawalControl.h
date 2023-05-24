@@ -5,12 +5,12 @@
 #include <string>
 using namespace std;
 
-class WithdrawalControl {
+class WithdrawalControl{
 
 
 public:
 
-	void deleteUserInfo(Member* currentUser);
+		void deleteUserInfo(Member* currentUser);
 
 };
 #endif

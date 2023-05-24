@@ -11,7 +11,7 @@ private:
 
 	string personalCode;
 
-	Recruitment* applyList[20];
+	Recruitment* applyList[20]; //지원 리스트
 
 	int applyCnt = 0;
 
@@ -31,7 +31,10 @@ public:
 
 	void cancelApply(string businessCode, Recruitments* recruitments);
 
-	void getApplyInfoStatistics(string* forPrint);
+	void getApplyInfoStatistics(string *forPrint);
 
+	void deleteApply();
+	void getApplyStatistics();
+	
 };
 #endif

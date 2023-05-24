@@ -1,6 +1,6 @@
 #include "JoinUI.h"
 
-Member* JoinUI::join(ifstream* fin, ofstream* fout, Recruitments* recruitments) {
+Member* JoinUI::join(ifstream* fin, ofstream* fout, Recruitments* recruitments){
 
     int memberType;
     string name, code, id, pw;

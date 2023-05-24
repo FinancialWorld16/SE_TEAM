@@ -4,7 +4,7 @@
 #include "WithdrawalControl.h"
 #include <fstream>
 
-class WithdrawalUI {
+class WithdrawalUI{
 public:
 
 	static void withdrawal(ifstream* fin, ofstream* fout, Member* currentUser);

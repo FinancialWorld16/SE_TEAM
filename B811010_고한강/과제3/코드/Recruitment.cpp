@@ -1,33 +1,33 @@
 #include "Recruitment.h"
 
-Recruitment::Recruitment() {
+Recruitment::Recruitment(){
 
 }
 
-Recruitment::Recruitment(string companyName, string businessCode, string workName, string personNum, string deadline) {
+Recruitment::Recruitment(string companyName, string businessCode, string workName, string personNum, string deadline){
 
-	this->companyName = companyName;
-	this->businessCode = businessCode;
-	this->workName = workName;
-	this->personNum = personNum;
-	this->deadline = deadline;
-
-}
-
-string Recruitment::getRecruitmentInfo() {
-
-	return workName + " " + personNum + " " + deadline;
+	this->companyName=companyName;
+	this->businessCode=businessCode;
+	this->workName=workName;
+	this->personNum=personNum;
+	this->deadline=deadline;
 
 }
 
-string Recruitment::getCompanyName() {
+string Recruitment::getRecruitmentInfo(){
+
+	return workName+" "+personNum+" "+deadline;
+
+}
+
+string Recruitment::getCompanyName(){
 
 	return companyName;
 
 }
 
 
-string Recruitment::getBusinessCode() {
+string Recruitment::getBusinessCode(){
 
 	return businessCode;
 
@@ -39,7 +39,7 @@ string Recruitment::getRecruitmentDetails() {
 
 }
 
-void Recruitment::applied() {
+void Recruitment::applied(){
 
 	applicantNum++;
 
@@ -52,13 +52,13 @@ string Recruitment::applyReturn() {
 
 }
 
-int Recruitment::getNumberOfApplicants() {
+int Recruitment::getNumberOfApplicants(){
 
 	return applicantNum;
 
 }
 
-void Recruitment::applyCanceled() {
+void Recruitment::applyCanceled(){
 
 	applicantNum--;
 
@@ -71,7 +71,7 @@ string Recruitment::applyCancelReturn() {
 }
 
 
-string Recruitment::getWorkName() {
+string Recruitment::getWorkName(){
 
 	return workName;
 }

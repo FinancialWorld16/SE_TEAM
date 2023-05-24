@@ -2,13 +2,14 @@
 #define LOG_IN_H
 #include <iostream>
 #include <string>
+#include "Member.h"
 using namespace std;
 
-class LogInControl {
+class LogInControl{
 
 public:
 
-	void logIn();
+	bool logIn(string id, string pw, Member* currrentUser);
 
 };
 #endif

@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-class Recruitment {
+class Recruitment{
 
 private:
 
@@ -18,7 +18,7 @@ private:
 
 	string deadline; //신청 마감일
 
-	int applicantNum = 0;
+	int applicantNum=0;
 
 public:
 
@@ -36,15 +36,19 @@ public:
 
 	string getRecruitmentDetails();
 
-	void applied();
+	void applied(); //지원 받으면 지원자 수++;
 
-	string applyReturn();
+	string applyReturn(); //지원 완료하면 보여주는 정보...
 
 	int getNumberOfApplicants();
 
 	void applyCanceled();
 
-	string applyCancelReturn();
+	string applyCancelReturn(); //지원 취소하면 보여주는 정보...
 
+	void setDetails();
+	void setDeadline();
+	void deleteRecruitment();
+	
 };
 #endif

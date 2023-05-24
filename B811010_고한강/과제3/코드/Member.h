@@ -30,7 +30,7 @@ public:
 
 	string getId();
 
-	void logIn();
+	bool logIn(string id, string pw);
 
 	void logOut();
 

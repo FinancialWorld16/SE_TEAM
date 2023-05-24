@@ -5,15 +5,15 @@
 #include <string>
 //회사회원
 
-class CompanyMember : public Member {
+class CompanyMember: public Member{
 
 private:
 
 	string businessCode;
 
-	Recruitment recruitmentList[20];
+	Recruitment recruitmentList[20]; //회사회원 개인의 채용정보 리스트 (*추가된 항목*)
 
-	int numberOfRecruitments = 0;
+	int numberOfRecruitments=0;
 
 	Recruitment* pRecruitment;
 
@@ -27,12 +27,14 @@ public:
 
 	Recruitment* listRecruitments();
 
-	void getRecruitmentStatistics(string* forPrint);
-
+	void getRecruitmentStatistics(string *forPrint);
+	
 	void addNewRecruitment(string workName, string personNum, string deadline);
 
 	int getNumberOfRecruitments();
 
+	void listClosedRecruitments();
+	
 };
 
 #endif

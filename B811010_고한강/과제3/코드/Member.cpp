@@ -1,49 +1,53 @@
 #include "Member.h"
 
-Member::Member() {
+Member::Member(){
 
 }
 
-Member::Member(string name, string id, string pw) {
+Member::Member(string name, string id, string pw){
 
-	this->name = name;
-	this->id = id;
-	this->pw = pw;
+	this->name=name;
+	this->id=id;
+	this->pw=pw;
 
 }
 
-Member* Member::createNewAccount(string name, string code, string id, string pw, Recruitments* recruitments) {
+Member* Member::createNewAccount(string name, string code, string id, string pw, Recruitments* recruitments){
 
-	Member* member = new Member();
+	Member *member=new Member();
 	return member;
 }
 
-void Member::deleteUserInfo() {
+void Member::deleteUserInfo(){
 
-	
+	//...//
 
 }
 
 
-string Member::getName() {
+string Member::getName(){
 
 	return this->name;
 
 }
 
-string Member::getId() {
+string Member::getId(){
 
 	return this->id;
 
 }
 
 
-void Member::logIn() {
+bool Member::logIn(string id, string pw){
 
+	if(this->id==id && this->pw==pw)
+		return true;
+	else
+		return false;
 
 }
 
-void Member::logOut() {
+void Member::logOut(){
 
 
 }

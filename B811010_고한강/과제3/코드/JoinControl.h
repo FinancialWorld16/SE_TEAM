@@ -13,19 +13,19 @@
 using namespace std;
 
 
-class JoinControl {
+class JoinControl{
 
 private:
 
-	Member* pMember;
+	Member *pMember;
 
-	GeneralMember* pGeneralMember;
+	GeneralMember *pGeneralMember;
 
-	CompanyMember* pCompanyMember;
+	CompanyMember *pCompanyMember;
 
 public:
 
-	Member* createNewAccount(int memberType, string name, string code, string id, string pw, Recruitments* recruitments);
+	Member* createNewAccount(int memberType, string name, string code, string id, string pw, Recruitments *recruitments);
 
 };
 #endif
