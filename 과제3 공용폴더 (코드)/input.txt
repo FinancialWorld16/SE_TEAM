@@ -1,0 +1,26 @@
+1 1 1 aCompany 3456 hk pwd1
+2 1 hk pwd1
+3 1 bbb 2 2023/05/26
+3 1 accounting 2 2023/05/26
+3 1 ccc 2 2023/05/26
+3 1 aaa 2 2023/05/26
+3 2
+2 2
+1 1 1 bCompany 98765 ht pwd1
+2 1 ht pwd1
+3 1 coding 2 2023/05/26
+3 1 accounting 2 2023/05/26
+3 1 typing 2 2023/05/26
+3 2
+2 2
+1 1 2 User 98765 hn pwd2
+2 1 hk pwd1
+2 1 hn pwd2
+4 1 bCompany
+4 2 98765
+4 1 aCompany
+4 2 3456
+4 3
+5 1
+2 2
+6 1

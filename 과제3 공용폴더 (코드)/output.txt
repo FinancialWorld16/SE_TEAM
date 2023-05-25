@@ -1,0 +1,102 @@
+1.1. 회원가입
+> aCompany 3456 hk pwd1
+
+2.1. 로그인
+> hk pwd1
+
+3.1. 채용 정보 등록
+> bbb 2 2023/05/26
+
+3.1. 채용 정보 등록
+> accounting 2 2023/05/26
+
+3.1. 채용 정보 등록
+> ccc 2 2023/05/26
+
+3.1. 채용 정보 등록
+> aaa 2 2023/05/26
+
+3.2. 등록된 채용 정보 조회
+> bbb 2 2023/05/26
+> accounting 2 2023/05/26
+> ccc 2 2023/05/26
+> aaa 2 2023/05/26
+
+2.2. 로그아웃
+> hk
+
+1.1. 회원가입
+> bCompany 98765 ht pwd1
+
+2.1. 로그인
+> ht pwd1
+
+3.1. 채용 정보 등록
+> coding 2 2023/05/26
+
+3.1. 채용 정보 등록
+> accounting 2 2023/05/26
+
+3.1. 채용 정보 등록
+> typing 2 2023/05/26
+
+3.2. 등록된 채용 정보 조회
+> coding 2 2023/05/26
+> accounting 2 2023/05/26
+> typing 2 2023/05/26
+
+2.2. 로그아웃
+> ht
+
+1.1. 회원가입
+> User 98765 hn pwd2
+
+2.1. 로그인 실패!
+> hk pwd1
+
+2.1. 로그인
+> hn pwd2
+
+4.1. 채용 정보 검색
+> bCompany 98765 coding 2 2023/05/26
+> bCompany 98765 accounting 2 2023/05/26
+> bCompany 98765 typing 2 2023/05/26
+
+4.2. 채용 지원
+> bCompany 98765 coding
+> bCompany 98765 accounting
+> bCompany 98765 typing
+
+4.1. 채용 정보 검색
+> aCompany 3456 bbb 2 2023/05/26
+> aCompany 3456 accounting 2 2023/05/26
+> aCompany 3456 ccc 2 2023/05/26
+> aCompany 3456 aaa 2 2023/05/26
+
+4.2. 채용 지원
+> aCompany 3456 bbb
+> aCompany 3456 accounting
+> aCompany 3456 ccc
+> aCompany 3456 aaa
+
+4.3. 지원 정보 조회
+> aCompany 3456 aaa 2 2023/05/26
+> aCompany 3456 accounting 2 2023/05/26
+> aCompany 3456 bbb 2 2023/05/26
+> aCompany 3456 ccc 2 2023/05/26
+> bCompany 98765 accounting 2 2023/05/26
+> bCompany 98765 coding 2 2023/05/26
+> bCompany 98765 typing 2 2023/05/26
+
+5.1. 지원 정보 통계
+> coding 1
+> accounting 2
+> typing 1
+> bbb 1
+> ccc 1
+> aaa 1
+
+2.2. 로그아웃
+> hn
+
+6.1. 종료

@@ -1,0 +1,31 @@
+1 1 1 hankook 3456 hk pwd1
+2 1 hk pwd1
+3 1 accounting 2 2023/05/26
+3 1 programming 4 2077/05/26
+3 1 accounting 66 2012/05/26
+3 2
+1 1 1 tt 1234 tt pwd2222
+2 1 tt pwd2222
+3 1 sex 3 2023/05/26
+3 1 toy 3 2077/05/26
+3 2
+1 1 1 rhgksrkd 7777 rhgksrkd sher
+2 1 rhgksrkd sher
+3 1 jjun 55 2023/05/26
+3 2
+2 2
+4 1 hankook
+4 1 tt
+4 1 rhgksrkd
+1 1 2 hong 98765 hn pwd2
+2 1 hn pwd2
+4 2 3456
+4 3
+4 2 7777
+4 3
+5 1
+4 4 7777
+5 1
+4 4 3456
+5 1
+6 1

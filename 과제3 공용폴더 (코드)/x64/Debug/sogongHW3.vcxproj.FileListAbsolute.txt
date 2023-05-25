@@ -1,0 +1,2 @@
+C:\SendAnywhere파일\sogongHW3_UI_로그인추가\x64\Debug\sogongHW3.exe
+C:\SendAnywhere파일\sogongHW3_최종\x64\Debug\sogongHW3.exe

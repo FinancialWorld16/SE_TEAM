@@ -1,0 +1,8 @@
+C:\Users\rhgks\source\repos\sogongHW3\Debug\sogongHW3.exe
+C:\Users\rhgks\source\repos\sogongHW3_세이브용\Debug\sogongHW3.exe
+C:\SendAnywhere파일\sogongHW3_세이브용\Debug\sogongHW3.exe
+C:\SendAnywhere파일\sogongHW3_세이브용 - 복사본\Debug\sogongHW3.exe
+C:\SendAnywhere파일\sogongHW3_이게원본\Debug\sogongHW3.exe
+C:\SendAnywhere파일\sogongHW3_수정\Debug\sogongHW3.exe
+C:\SendAnywhere파일\sogongHW3_UI추가\Debug\sogongHW3.exe
+C:\Users\User\Desktop\소공 과제3\sogongHW3_UI추가_연습장\Debug\sogongHW3.exe
