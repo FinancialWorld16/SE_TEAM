@@ -5,6 +5,7 @@
 #include "Member.h"
 using namespace std;
 
+//·Î±×ÀÎ Control Class
 class LogInControl{
 
 public:

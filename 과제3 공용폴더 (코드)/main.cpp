@@ -21,11 +21,9 @@ using namespace std;
 #include "CancelApplyUI.h"
 #include "ShowStatisticsUI.h"
 
-
-// 함수 선언
+//함수 전방선언
 void doTask();
 int program_exit();
-
 
 //파일 입출력용 객체
 ofstream fout;
@@ -47,11 +45,10 @@ int main(){
 
 void doTask(){
 
-    // 메뉴 파싱을 위한 level 구분을 위한 변수
-    int menu_level_1 = 0, menu_level_2 = 0;
-    int is_program_exit = 0;
+    int menu_level_1 = 0, menu_level_2 = 0; // 메뉴 파싱을 위한 level 구분을 위한 변수
+    int is_program_exit = 0; //프로그램 종료 코드
 
-    Recruitments* recruitments=new Recruitments(); //전체 채용정보 DB Entity
+    Recruitments* recruitments=new Recruitments(); //전체 채용정보 리스트
 
     Member *currentUser=NULL; //현재 사용자가 어떤 회원인지 판단
 
@@ -63,10 +60,10 @@ void doTask(){
         switch (menu_level_1){
         case 1: 
             switch (menu_level_2){
-            case 1: //1.1 회원가입 (DB없어서 회원가입 하면 바로 로그인 되는 느낌으로 함)
+            case 1: //1.1 회원가입
                 currentUser=JoinUI::join(&fin, &fout, recruitments);
                 break;
-            case 2: //1.2 회원탈퇴 (따로 DB 구현 안했음)
+            case 2: //1.2 회원탈퇴
                 WithdrawalUI::withdrawal(&fin, &fout, currentUser);
                 currentUser=NULL;
                 break;
@@ -75,11 +72,11 @@ void doTask(){
 
         case 2:
             switch (menu_level_2) {
-            case 1: //2.1 로그인 (회원가입 하자마자 로그인 안하면 불가능하게 정도로 처리)
+            case 1: //2.1 로그인
                 LogInUI::logIn(&fin, &fout, currentUser);
                 break;
 
-            case 2: //2.2 로그아웃 (시스템적으로 일어나는 일 구현 안했음)
+            case 2: //2.2 로그아웃
                 LogOutUI::logOut(&fin, &fout, currentUser);
                 currentUser=NULL;
                 break;
@@ -100,7 +97,7 @@ void doTask(){
 
         case 4:
             switch (menu_level_2) {
-            case 1: //4.1 채용 정보 검색 (오름차순 할 필요 X)
+            case 1: //4.1 채용 정보 검색
                 ShowRecruitmentsUI::showRecruitments(&fin, &fout, currentUser, recruitments);
                 break;
 

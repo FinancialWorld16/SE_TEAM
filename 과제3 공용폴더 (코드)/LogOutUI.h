@@ -2,6 +2,7 @@
 #include "Member.h"
 #include <fstream>
 
+//·Î±×¾Æ¿ô Boundary Class
 class LogOutUI{
 
 public:

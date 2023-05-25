@@ -1,9 +1,7 @@
 #include "ApplyUI.h"
 
-
+//4.2. 채용 지원
 void ApplyUI::apply(ifstream* fin, ofstream* fout, Member* currentUser, Recruitments* recruitments){
-
-    //4.2. 채용 지원
 
     string forPrint[20]; //UI 출력용 string 배열
     string businessCode;
@@ -21,6 +19,5 @@ void ApplyUI::apply(ifstream* fin, ofstream* fout, Member* currentUser, Recruitm
         *fout << "> " << forPrint[i] << endl;
     }
     *fout << "\n";
-
 
 }

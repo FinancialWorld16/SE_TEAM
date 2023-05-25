@@ -5,14 +5,13 @@
 #include "CompanyMember.h"
 #include "Recruitments.h"
 
-
 #include <iostream>
 #include <fstream>
 #include <string>
-
 using namespace std;
 
 
+//회원가입 Control Class
 class JoinControl{
 
 private:

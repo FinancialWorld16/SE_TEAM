@@ -1,10 +1,12 @@
 #include "CancelApplyControl.h"
 
+//지원 취소
 void CancelApplyControl::cancelApply(GeneralMember* generalMember, string businessCode, Recruitments* recruitments, string* forPrint) {
 
 	Recruitment** recruitmentList = recruitments->getRecruitmetList(); //전체 채용 리스트
 
-	//출력할 정보를 내 지원리스트에서 미리 저장... 왜냐하면 지원 취소를 하면 내 지원리스트에서 목록들이 빠지니까 일단 정보먼저 빼기
+	/*출력할 정보를 내 지원리스트에서 미리 저장...
+	왜냐하면 지원취소를 하면 내 지원리스트에서 목록들이 빠지니까 일단 정보 먼저 빼내기*/
 	int j = 0;
 	for (int i = 0; i < generalMember->getApplyCnt(); i++) {
 		if (generalMember->listApplyInfo()[i]->getBusinessCode() == businessCode) {
@@ -13,6 +15,6 @@ void CancelApplyControl::cancelApply(GeneralMember* generalMember, string busine
 		}
 	}
 
-	generalMember->cancelApply(businessCode, recruitments);
+	generalMember->cancelApply(businessCode, recruitments); //지원취소 처리
 
 }

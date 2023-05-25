@@ -5,6 +5,7 @@
 #include "Member.h"
 using namespace std;
 
+//·Î±×ÀÎ Boundary Class
 class LogInUI {
 public:
 

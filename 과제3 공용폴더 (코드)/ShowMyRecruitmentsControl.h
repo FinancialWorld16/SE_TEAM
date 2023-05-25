@@ -6,6 +6,7 @@
 #include <cstring>
 using namespace std;
 
+//회사회원의 채용정보 조회 Control Class
 class ShowMyRecruitmentsControl{
 
 private:

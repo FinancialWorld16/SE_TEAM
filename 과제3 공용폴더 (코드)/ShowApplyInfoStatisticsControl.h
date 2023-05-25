@@ -5,6 +5,7 @@
 #include "GeneralMember.h"
 using namespace std;
 
+//지원정보 통계보기 Control Class
 class ShowApplyInfoStatisticsControl {
 
 public:

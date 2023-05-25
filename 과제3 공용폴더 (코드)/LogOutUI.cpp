@@ -1,9 +1,9 @@
 #include "LogOutUI.h"
 
+//2.2. 로그아웃
 void LogOutUI::logOut(ifstream* fin, ofstream* fout, Member* currentUser){
 
-    //2.2. 로그아웃
-
+    //Control 생성 & 실행
     LogOutControl* logOutControl=new LogOutControl();
     logOutControl->logOut(currentUser);
 

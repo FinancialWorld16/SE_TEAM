@@ -1,9 +1,7 @@
 #include "ShowApplyInfoUI.h"
 
-
+//4.3. 지원 정보 조회
 void ShowApplyInfoUI::showApplyInfo(ifstream* fin, ofstream* fout, Member* currentUser){
-
-    //4.3. 지원 정보 조회
 
     string forPrint[20]; //UI 출력용 string 배열
     GeneralMember* generalMember = (GeneralMember*)currentUser; //일반회원으로 형 변환

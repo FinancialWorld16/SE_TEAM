@@ -3,8 +3,9 @@
 #include "Member.h"
 #include "Recruitment.h"
 #include <string>
-//회사회원
 
+
+//회사회원 Class (Member를 상속)
 class CompanyMember: public Member{
 
 private:

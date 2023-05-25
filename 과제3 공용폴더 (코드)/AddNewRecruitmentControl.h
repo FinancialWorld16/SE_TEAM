@@ -5,6 +5,7 @@
 #include <string>
 using namespace std;
 
+//채용정보 등록 Control Class
 class AddNewRecruitmentControl{
 
 private:

@@ -4,7 +4,8 @@
 #include "Recruitments.h"
 #include <iostream>
 #include <string>
-//일반회원
+
+//일반회원 Class (Member를 상속)
 class GeneralMember : public Member {
 
 private:

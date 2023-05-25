@@ -3,6 +3,7 @@
 #include "Member.h"
 #include <fstream>
 
+//(채용, 지원) 정보 통계보기 Boundary Class
 class ShowStatisticsUI{
 
 public:

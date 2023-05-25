@@ -6,6 +6,7 @@
 #include "Recruitments.h"
 using namespace std;
 
+//지원 취소 Control Class
 class CancelApplyControl {
 
 public:

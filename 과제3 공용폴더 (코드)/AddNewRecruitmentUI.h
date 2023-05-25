@@ -7,6 +7,7 @@
 #include <fstream>
 using namespace std;
 
+//채용정보 등록 Boundary Class
 class AddNewRecruitmentUI{
 
 public:

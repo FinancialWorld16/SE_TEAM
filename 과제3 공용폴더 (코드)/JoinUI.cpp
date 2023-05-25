@@ -1,5 +1,6 @@
 #include "JoinUI.h"
 
+//1.1 회원가입
 Member* JoinUI::join(ifstream* fin, ofstream* fout, Recruitments* recruitments){
 
     int memberType;

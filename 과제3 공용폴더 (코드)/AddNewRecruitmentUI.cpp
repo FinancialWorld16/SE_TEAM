@@ -1,16 +1,14 @@
 #include "AddNewRecruitmentUI.h"
 
-
+//3.1. 채용 정보 등록
 void AddNewRecruitmentUI::addNewRecruitment(ifstream* fin, ofstream* fout, Member* currentUser){
 
-    //3.1. 채용 정보 등록
     string workName, personNum, deadline;
-
-    //Control 생성 & 실행
-    CompanyMember* companyMember = (CompanyMember*)currentUser;
+    CompanyMember* companyMember = (CompanyMember*)currentUser; //일반회원으로 형 변환
 
     *fin >> workName >> personNum >> deadline;
 
+    //Control 생성 & 실행
     AddNewRecruitmentControl* addNewRecruitmentControl = new AddNewRecruitmentControl();
     addNewRecruitmentControl->addNewRecruitment(companyMember, workName, personNum, deadline);
 

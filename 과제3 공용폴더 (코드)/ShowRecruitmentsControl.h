@@ -7,6 +7,7 @@
 #include "Recruitment.h"
 using namespace std;
 
+//채용정보 검색 Control Class
 class ShowRecruitmentsControl {
 
 public:

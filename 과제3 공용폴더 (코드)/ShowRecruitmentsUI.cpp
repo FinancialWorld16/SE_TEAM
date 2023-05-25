@@ -1,8 +1,7 @@
 #include "ShowRecruitmentsUI.h"
 
+//4.1. 채용 정보 검색
 void ShowRecruitmentsUI::showRecruitments(ifstream* fin, ofstream* fout, Member* currentUser, Recruitments* recruitments){
-
-    //4.1. 채용 정보 검색 (회사이름 오름차순 아직 구현 안함)
 
     //타입 체크하여 일반회원만 가능하게!
     if (typeid(*currentUser) != typeid(GeneralMember)) {

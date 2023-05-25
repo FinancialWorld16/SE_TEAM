@@ -1,8 +1,8 @@
 #include "LogInUI.h"
 
+//2.1 로그인
 void LogInUI::logIn(ifstream* fin, ofstream* fout, Member* currentUser){
 
-    //2.1 로그인
     string id, pw;
     bool isValid;
 

@@ -6,6 +6,7 @@
 #include <algorithm>
 using namespace std;
 
+//지원정보 조회 Control Class
 class ShowApplyInfoControl {
 
 public:

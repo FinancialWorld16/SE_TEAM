@@ -3,6 +3,7 @@
 #include "Recruitments.h"
 #include <fstream>
 
+//채용정보 검색 Boundary Class
 class ShowRecruitmentsUI{
 public:
 

@@ -1,9 +1,7 @@
 #include "CancelApplyUI.h"
 
-
+//4.4. 지원 취소
 void CancelApplyUI::cancelApply(ifstream* fin, ofstream* fout, Member* currentUser, Recruitments* recruitments){
-
-    //4.4. 지원 취소
 
     string forPrint[20]; //UI 출력용 string 배열
     string businessCode;

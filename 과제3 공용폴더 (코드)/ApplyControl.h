@@ -6,6 +6,7 @@
 #include "GeneralMember.h"
 using namespace std;
 
+//채용 지원 Control Class
 class ApplyControl {
 
 public:

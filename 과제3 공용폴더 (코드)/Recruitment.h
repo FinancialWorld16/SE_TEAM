@@ -4,6 +4,7 @@
 #include <string>
 using namespace std;
 
+//채용정보 Class
 class Recruitment{
 
 private:

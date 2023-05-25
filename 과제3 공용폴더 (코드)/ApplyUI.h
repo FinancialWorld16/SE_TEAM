@@ -2,6 +2,8 @@
 #include "Member.h"
 #include "Recruitments.h"
 #include <fstream>
+
+//채용 지원 Boundary Class
 class ApplyUI{
 
 public:

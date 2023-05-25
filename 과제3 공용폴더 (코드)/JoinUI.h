@@ -4,6 +4,7 @@
 #include "Recruitments.h"
 #include "JoinControl.h"
 
+//회원가입 Boundary Class
 class JoinUI{
 public:
 

@@ -5,7 +5,7 @@
 #include "Recruitments.h"
 using namespace std;
 
-
+//È¸¿ø Class
 class Member {
 
 private:

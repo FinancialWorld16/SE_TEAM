@@ -4,6 +4,7 @@
 #include "WithdrawalControl.h"
 #include <fstream>
 
+//È¸¿øÅ»Åð Boundary Class
 class WithdrawalUI{
 public:
 

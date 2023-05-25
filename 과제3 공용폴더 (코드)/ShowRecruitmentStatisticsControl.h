@@ -6,6 +6,7 @@
 #include <string>
 using namespace std;
 
+//채용정보 통계보기 Control Class
 class ShowRecruitmentStatisticsControl {
 
 public:
